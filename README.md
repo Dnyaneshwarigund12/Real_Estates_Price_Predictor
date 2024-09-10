@@ -31,23 +31,8 @@ The dataset should be formatted as a CSV file and can be replaced with your own 
 
 ## Usage
 
-### Training the Model
-1. Ensure your dataset is placed in the `data/` directory as `real_estate_data.csv`.
-2. Run the following command to preprocess the data and train the model:
-    ```bash
-    python train.py
-    ```
-   This will preprocess the data, train the model, and save the trained model as `model.pkl`.
-
-### Making Predictions
-1. Use the saved model to make predictions on new data:
-    ```bash
-    python predict.py --input "new_data.csv"
-    ```
-   Replace `"new_data.csv"` with the path to your CSV file containing the data for which you want to make predictions.
-
 ### Model Training
-The training script (`train.py`) preprocesses the data, trains the model, and evaluates its performance. It includes steps like:
+ It includes steps like:
 - Data cleaning and preprocessing
 - Feature engineering
 - Model training and evaluation
