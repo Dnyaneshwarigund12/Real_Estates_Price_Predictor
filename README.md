@@ -1,4 +1,3 @@
-# Real_Estates_Price_Predictor
 # Real Estate Price Predictor
 
 The Real Estate Price Predictor is a machine learning project that predicts the prices of real estate properties based on various features like location, square footage, number of bedrooms, and other relevant factors. This tool aims to assist real estate agents, buyers, and sellers in making informed decisions by providing accurate price estimates.
